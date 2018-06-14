@@ -33,9 +33,14 @@ function currentLine(katzDeliLine) {
     }
 }
   
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
-  return 'Welcome, ' + name + '.' + ' You are number ' + katzDeliLine[i] + ' in line.';
+function takeANumber(katzDeliLine) {
+  var num = 0;
+  katzDeliLine.push(num)++;
+  
+  
+/*  return 'Welcome, ' + name + '.' + ' You are number ' + katzDeliLine[i] + ' in line.';
+
+*/
 }
 
   
